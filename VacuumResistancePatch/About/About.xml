@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Vacuum Resistance Thermobaric Patch</name>
+  <author>rim542</author>
+  <packageId>ray.vacuumresistancepatch</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>By default, More Injuries (Continued) treats all pawns equally when determining whether a blast causes lung collapse, regardless of whether they're wearing a fully sealed vacuum suit.
+This mod changes that.
+When a pawn is affected by a Bomb or Combat Extended thermobaric explosion, the chance of suffering a lung collapse is reduced according to the pawn's Vacuum Resistance stat from Odyssey.
+This allows vacuum-sealed  armorto provide protection against the pressure-related lung injuries while leaving the rest of the explosion mechanics untouch</description>
+  <modDependencies>
+    <li>
+      <packageId>ludeon.rimworld.odyssey</packageId>
+      <displayName>Odyssey</displayName>
+    </li>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+    </li>
+    <li>
+      <packageId>Mlie.MoreInjuriesContinued</packageId>
+      <displayName>More Injuries (Continued)</displayName>
+    </li>
+  </modDependencies>
+</ModMetaData>
